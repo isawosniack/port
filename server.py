@@ -11,6 +11,10 @@ def my_home():
 def html_page(page_name):
     return render_template(page_name)
 
+@app.route('/index.html')
+def index():
+    return render_template('index.html')
+
 @app.route('/about.html')
 def about():
     return render_template('about.html')
