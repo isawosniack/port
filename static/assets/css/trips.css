@@ -33,3 +33,15 @@ nav {
     object-fit: cover;
     vertical-align: middle;
 }
+
+.title {
+  margin-bottom: 50px;
+}
+
+.bg-city-1 {
+  background-color: rgb(243 243 243);
+}
+
+.bg-city-2 {
+  background-color: #fff;
+}

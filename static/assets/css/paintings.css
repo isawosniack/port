@@ -29,3 +29,6 @@
 #lightbox-container-image-data-box{ 
     max-width:80%; margin-bottom:50px;
 }
+img {
+    margin: 10px;
+}
