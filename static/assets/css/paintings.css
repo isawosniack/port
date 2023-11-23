@@ -14,3 +14,18 @@
     height: 50px;
     border-radius: 100px;
   }
+.nav-item{
+    z-index: 1;
+    background-color: #fff;
+}
+
+#lightbox-container-image-box {
+    max-width: 80%;
+    height:100% !important;
+}
+#lightbox-container-image img {
+    max-width: 100%; 
+}
+#lightbox-container-image-data-box{ 
+    max-width:80%; margin-bottom:50px;
+}
