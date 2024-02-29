@@ -15,9 +15,9 @@ def html_page(page_name):
 def index():
     return render_template('index.html')
 
-@app.route('/about.html')
-def about():
-    return render_template('about.html')
+@app.route('/ingolstadt.html')
+def ingolstadt():
+    return render_template('ingolstadt.html')
 
 @app.route('/paintings.html')
 def paintings():
