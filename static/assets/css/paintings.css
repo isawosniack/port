@@ -19,16 +19,34 @@
     background-color: #fff;
 }
 
-#lightbox-container-image-box {
-    max-width: 80%;
-    height:100% !important;
+.img-fluid{
+  width:100%;
 }
-#lightbox-container-image img {
-    max-width: 100%; 
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
 }
-#lightbox-container-image-data-box{ 
-    max-width:80%; margin-bottom:50px;
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
 }
+
 img {
     margin: 10px;
 }
